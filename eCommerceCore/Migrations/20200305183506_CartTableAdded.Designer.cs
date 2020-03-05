@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using eCommerceCore.Models;
 
 namespace eCommerceCore.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200305183506_CartTableAdded")]
+    partial class CartTableAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -91,27 +93,6 @@ namespace eCommerceCore.Migrations
                     b.HasIndex("ProductVariationID");
 
                     b.ToTable("OrderRecord");
-                });
-
-            modelBuilder.Entity("eCommerceCore.Models.Payment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("OrderId");
-
-                    b.Property<string>("PaymentMethod")
-                        .IsRequired();
-
-                    b.Property<string>("PaymentStatus")
-                        .IsRequired();
-
-                    b.Property<double>("TotalPrice");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Payment");
                 });
 
             modelBuilder.Entity("eCommerceCore.Models.Product", b =>

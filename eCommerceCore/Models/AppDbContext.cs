@@ -16,5 +16,12 @@ namespace eCommerceCore.Models
         }
 
         public DbSet<User> User { get; set; }
+        public DbSet<UserCredential> UserCredential { get; set; }
+        public DbSet<Product> Product { get; set; }
+        public DbSet<ProductVariation> ProductVariations { get; set; }
+        public DbSet<Comment> Comment { get; set; }
+        public DbSet<OrderRecord> OrderRecord { get; set; }
+        public DbSet<Cart> Cart { get; set; }
+        public DbSet<Payment> Payment { get; set; }
     }
 }

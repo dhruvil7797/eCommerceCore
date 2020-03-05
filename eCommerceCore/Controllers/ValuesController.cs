@@ -18,10 +18,16 @@ namespace eCommerceCore.Controllers
         }
 
         // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        [HttpGet("id")]
+        public ActionResult<string> Get(int id1)
         {
             return "value";
+        }
+
+        [HttpGet("{age}")]
+        public ActionResult<string> A(int age1)
+        {
+            return "age";
         }
 
         // POST api/values

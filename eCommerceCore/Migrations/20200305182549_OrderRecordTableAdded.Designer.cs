@@ -2,44 +2,23 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using eCommerceCore.Models;
 
 namespace eCommerceCore.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20200305182549_OrderRecordTableAdded")]
+    partial class OrderRecordTableAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.1.14-servicing-32113")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-            modelBuilder.Entity("eCommerceCore.Models.Cart", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<bool>("IsRegistered");
-
-                    b.Property<int>("ProductId");
-
-                    b.Property<int>("Quantity");
-
-                    b.Property<string>("SessionId");
-
-                    b.Property<int>("UserId");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
-
-                    b.ToTable("Cart");
-                });
 
             modelBuilder.Entity("eCommerceCore.Models.Comment", b =>
                 {
@@ -91,27 +70,6 @@ namespace eCommerceCore.Migrations
                     b.HasIndex("ProductVariationID");
 
                     b.ToTable("OrderRecord");
-                });
-
-            modelBuilder.Entity("eCommerceCore.Models.Payment", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("OrderId");
-
-                    b.Property<string>("PaymentMethod")
-                        .IsRequired();
-
-                    b.Property<string>("PaymentStatus")
-                        .IsRequired();
-
-                    b.Property<double>("TotalPrice");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Payment");
                 });
 
             modelBuilder.Entity("eCommerceCore.Models.Product", b =>
@@ -216,14 +174,6 @@ namespace eCommerceCore.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("UserCredential");
-                });
-
-            modelBuilder.Entity("eCommerceCore.Models.Cart", b =>
-                {
-                    b.HasOne("eCommerceCore.Models.ProductVariation", "ProductVariation")
-                        .WithMany()
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("eCommerceCore.Models.Comment", b =>
