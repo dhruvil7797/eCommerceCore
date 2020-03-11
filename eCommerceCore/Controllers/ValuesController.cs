@@ -24,16 +24,12 @@ namespace eCommerceCore.Controllers
             return "value";
         }
 
-        [HttpGet("{age}")]
-        public ActionResult<string> A(int age1)
-        {
-            return "age";
-        }
 
         // POST api/values
         [HttpPost]
         public void Post([FromBody] string value)
         {
+            
         }
 
         // PUT api/values/5
