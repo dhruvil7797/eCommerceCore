@@ -8,6 +8,16 @@ namespace eCommerceCore.Models
 {
     public class Product
     {
+        public Product(string name, string description, double price, string brand, string image, double shippingCost)
+        {
+            Name = name;
+            Description = description;
+            Price = price;
+            Brand = brand;
+            Image = image;
+            ShippingCost = shippingCost;
+        }
+
         public int Id { get; set; }
 
         [Required]

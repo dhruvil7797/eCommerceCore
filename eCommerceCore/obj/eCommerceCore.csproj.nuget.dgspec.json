@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\panjw\\Documents\\Semester 2\\WebTechnologies\\eCommerceCore\\eCommerceCore\\eCommerceCore.csproj": {}
+    "C:\\Users\\Dhruvil\\Desktop\\Term2\\Web\\eCommerceCore\\eCommerceCore\\eCommerceCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\panjw\\Documents\\Semester 2\\WebTechnologies\\eCommerceCore\\eCommerceCore\\eCommerceCore.csproj": {
+    "C:\\Users\\Dhruvil\\Desktop\\Term2\\Web\\eCommerceCore\\eCommerceCore\\eCommerceCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\panjw\\Documents\\Semester 2\\WebTechnologies\\eCommerceCore\\eCommerceCore\\eCommerceCore.csproj",
+        "projectUniqueName": "C:\\Users\\Dhruvil\\Desktop\\Term2\\Web\\eCommerceCore\\eCommerceCore\\eCommerceCore.csproj",
         "projectName": "eCommerceCore",
-        "projectPath": "C:\\Users\\panjw\\Documents\\Semester 2\\WebTechnologies\\eCommerceCore\\eCommerceCore\\eCommerceCore.csproj",
-        "packagesPath": "C:\\Users\\panjw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\panjw\\Documents\\Semester 2\\WebTechnologies\\eCommerceCore\\eCommerceCore\\obj\\",
+        "projectPath": "C:\\Users\\Dhruvil\\Desktop\\Term2\\Web\\eCommerceCore\\eCommerceCore\\eCommerceCore.csproj",
+        "packagesPath": "C:\\Users\\Dhruvil\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dhruvil\\Desktop\\Term2\\Web\\eCommerceCore\\eCommerceCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\panjw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dhruvil\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,16 +64,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }

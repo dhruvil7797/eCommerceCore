@@ -28,3 +28,17 @@ C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\
 C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.RazorTargetAssemblyInfo.cache
 C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.dll
 C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.pdb
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\bin\Debug\netcoreapp2.1\eCommerceCore.deps.json
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\bin\Debug\netcoreapp2.1\eCommerceCore.runtimeconfig.json
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\bin\Debug\netcoreapp2.1\eCommerceCore.runtimeconfig.dev.json
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\bin\Debug\netcoreapp2.1\eCommerceCore.dll
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\bin\Debug\netcoreapp2.1\eCommerceCore.pdb
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.csprojAssemblyReference.cache
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.csproj.CoreCompileInputs.cache
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.RazorAssemblyInfo.cache
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.RazorAssemblyInfo.cs
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.AssemblyInfoInputs.cache
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.AssemblyInfo.cs
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.RazorTargetAssemblyInfo.cache
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.dll
+C:\Users\Dhruvil\Desktop\Term2\Web\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.pdb
