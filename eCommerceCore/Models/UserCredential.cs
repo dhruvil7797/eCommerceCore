@@ -11,9 +11,9 @@ namespace eCommerceCore.Models
     {
         public int Id { get; set; }
 
-        [ForeignKey("User")]
+        [ForeignKey("Users")]
         public int UserId { get; set; }
-        public User User { get; set; }
+        public Users User { get; set; }
         [Required]
         public string Password { get; set; }
 

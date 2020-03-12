@@ -14,3 +14,17 @@ C:\Users\panjw\Documents\Semester 2\WebTechnologies\eCommerceCore\eCommerceCore\
 C:\Users\panjw\Documents\Semester 2\WebTechnologies\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.RazorTargetAssemblyInfo.cache
 C:\Users\panjw\Documents\Semester 2\WebTechnologies\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.dll
 C:\Users\panjw\Documents\Semester 2\WebTechnologies\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.pdb
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\bin\Debug\netcoreapp2.1\eCommerceCore.deps.json
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\bin\Debug\netcoreapp2.1\eCommerceCore.runtimeconfig.json
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\bin\Debug\netcoreapp2.1\eCommerceCore.runtimeconfig.dev.json
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\bin\Debug\netcoreapp2.1\eCommerceCore.dll
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\bin\Debug\netcoreapp2.1\eCommerceCore.pdb
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.csprojAssemblyReference.cache
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.csproj.CoreCompileInputs.cache
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.RazorAssemblyInfo.cache
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.RazorAssemblyInfo.cs
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.AssemblyInfoInputs.cache
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.AssemblyInfo.cs
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.RazorTargetAssemblyInfo.cache
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.dll
+C:\Users\karishma\Documents\eCommerceCore\eCommerceCore\obj\Debug\netcoreapp2.1\eCommerceCore.pdb

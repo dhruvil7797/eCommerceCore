@@ -15,7 +15,7 @@ namespace eCommerceCore.Models
             base.OnModelCreating(mb);
         }
 
-        public DbSet<User> User { get; set; }
+        public DbSet<Users> Users { get; set; }
         public DbSet<UserCredential> UserCredential { get; set; }
         public DbSet<Product> Product { get; set; }
         public DbSet<ProductVariation> ProductVariations { get; set; }
