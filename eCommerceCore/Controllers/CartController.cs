@@ -49,6 +49,23 @@ namespace eCommerceCore.Controllers
             return cartresp;
         }
 
+        [HttpPost("updatecart")]
+        public CartResponse UpdateCart([FromBody] Cart cart)
+        {
+            var cartResp = new CartResponse() { Success = false };
+
+            if (context.Cart.Any(id => id.Id == cart.Id))
+            {
+                context.Cart.Remove(cart);
+                context.SaveChanges();
+                cartResp.Success = true;
+                cartResp.Message = "cart deleted";
+            }
+
+            return cartResp;
+        }
+
+
         // PUT: api/Cart/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
