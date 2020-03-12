@@ -9,6 +9,14 @@ namespace eCommerceCore.Models
 {
     public class Comment
     {
+        public Comment(int userId, int productId, string productComment, int ratings)
+        {
+            UserId = userId;
+            ProductId = productId;
+            ProductComment = productComment;
+            Ratings = ratings;
+        }
+
         public int Id { get; set; }
 
         [ForeignKey("Users")]
@@ -24,8 +32,5 @@ namespace eCommerceCore.Models
 
         [Required]
         public int Ratings { get; set; }
-
-
-
     }
 }
