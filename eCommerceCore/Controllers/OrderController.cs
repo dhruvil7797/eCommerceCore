@@ -43,16 +43,12 @@ namespace eCommerceCore.Controllers
 
             try
             {
-                
-                    await context.OrderRecord.AddAsync(orderRecord);
-                    await context.SaveChangesAsync();
-                    orderResponse.Success = true;
-                    orderResponse.Message = "Order Added Successfully";
-                
-                
-                    
-                
-                
+
+                await context.OrderRecord.AddAsync(orderRecord);
+                await context.SaveChangesAsync();
+                orderResponse.Success = true;
+                orderResponse.Message = "Order Added Successfully";
+
             }
             catch (Exception e)
             {
