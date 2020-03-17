@@ -21,7 +21,7 @@ namespace eCommerceCore.Controllers
         }
 
         // GET: api/Comment/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet("{id}")]
         public FetchCommentResponse Get(int id)
         {
             var response = new FetchCommentResponse();
