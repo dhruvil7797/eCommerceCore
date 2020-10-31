@@ -1,5 +1,7 @@
+# eCommerceCore
+
 # Introduction 
-eCommerce Application's backend server running on .NET Core
+eCommerce Application's backend server developed in .NET Core
 
 # Features
 - Add product
